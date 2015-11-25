@@ -5,7 +5,7 @@
 
 # HOW
 ```js
-    npm i -g babel-node
+    npm install --global babel-cli
     watch -d -n 0.5 -c babel-node test.js
 ```
 
