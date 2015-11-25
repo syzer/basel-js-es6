@@ -5,7 +5,8 @@ module.exports = function(people) {
     return {
         hasName: hasName,
         findName: findName,
-        allNames: allNames
+        allNames: allNames,
+        firstPersonCard: firstPersonCard
     };
 
     function hasName(name) {
@@ -24,6 +25,10 @@ module.exports = function(people) {
         return people.map(function(el) {
             return el.name;
         })
+    }
+
+    function firstPersonCard() {
+        return "" + people[0].name + ' is from:\n' + people[0].address;
     }
 
 };
