@@ -1,0 +1,22 @@
+{
+  "name": "basel-js-es6",
+  "version": "1.0.0",
+  "description": "```js console.log true to pass ``` run",
+  "main": "NotSoOldPeople.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syzer/basel-js-es6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syzer/basel-js-es6/issues"
+  },
+  "homepage": "https://github.com/syzer/basel-js-es6#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.1.18"
+  }
+}

@@ -6,8 +6,14 @@ const people = [
     {name: 'emi', data: 'here', address: 'Here' }
 ];
 
-let myFavPeople = new People(people);
+var doOldStuff = function(a) {
+    var self = this;
+    return a;
+};
 
+const doStuff = (a) => (a);
+
+var myFavPeople = new People(people);
 
 console.log(myFavPeople.hasName('emi') === true);
 
