@@ -10,6 +10,8 @@ var myFavPeople = People(people);
 
 console.log(myFavPeople.hasName('emi') === true);
 
+console.log(myFavPeople.findName('emi'));
+
 console.log(myFavPeople.findName('emi').data === 'here');
 
 console.log(myFavPeople.allNames()[1] === 'ela');
@@ -17,3 +19,5 @@ console.log(myFavPeople.allNames()[1] === 'ela');
 console.log(myFavPeople.allNames()[0] === 'ala');
 
 console.log(myFavPeople.firstPersonCard() === 'ala is from:\nOslo strasse');
+
+console.log(myFavPeople.firstPersonCard());
