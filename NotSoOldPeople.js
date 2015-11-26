@@ -1,3 +1,4 @@
+// refactored OldPeople
 module.exports = function(people = []) {
 
     return {
