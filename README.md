@@ -1,4 +1,6 @@
 # WAT
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/syzer/basel-js-es6.svg)](https://greenkeeper.io/)
 ```js
 console.log true to pass
 ```
